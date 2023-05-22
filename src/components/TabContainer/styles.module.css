@@ -1,0 +1,63 @@
+.asdasd{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.leftIcon {
+	/* padding-left: 4px;
+	width: 5px;
+	height: 2px;
+	background-color: blue; */
+	margin-left: 9px;
+	background-color: var(--rojo);
+	transform: rotate(45deg);
+	border-radius: 40px;
+	position: absolute;
+	left: 78px;
+	width: 8px;
+	height: 2px;
+	transition: .5s;
+}
+
+.rightIcon {
+	width: 8px;
+	height: 2px;
+	background-color: var(--rojo);
+	transform: rotate(-45deg);
+	border-radius: 40px;
+	position: absolute;
+	left: 92px;
+	transition: .5s;
+}
+
+.spanProducto {
+	margin-top: 4px;
+}
+
+.leftIconOpen {
+	transform: rotate(135deg);
+}
+
+.rightIconOpen {
+	transform: rotate(-135deg);
+}
+
+.headerProducts {
+	display: flex;
+	align-items: center;
+	position: relative;
+	font-size: 12px;
+	color: var(--rojo);
+	padding: 0 5px;
+}
+
+.active {
+	border-bottom: 1px solid var(--rojo);
+}
+
+.spanProducto {
+	margin-top: 4px;
+}
